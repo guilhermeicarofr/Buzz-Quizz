@@ -1,5 +1,5 @@
 // VARIABLES
-const apiURL = "https://mock-api.driven.com.br/api/v7/buzzquizz/quizzes"
+const apiURL = "https://mock-api.driven.com.br/api/vs/buzzquizz/quizzes"
 const loadingScreen = {
     e: document.querySelector('.loader-container'),
     show: () => loadingScreen.e.classList.remove('hidden'),
